@@ -1,4 +1,4 @@
-public class Demo8 {
+public class Demo08 {
     public static void main(String[] args) {
         int[][] no = {{54, 78, 79}, {66, 74, 34}, {96, 99, 78}};
 

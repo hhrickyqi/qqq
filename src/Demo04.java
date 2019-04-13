@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Demo4 {
+public class Demo04 {
     public static void main(String[] args) {
         System.out.println("请输入月份：");
         Scanner sc = new Scanner(System.in);

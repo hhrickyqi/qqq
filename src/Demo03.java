@@ -1,4 +1,4 @@
-public class Demo3 {
+public class Demo03 {
     public static void main(String[] args) {
         int x = 2018;
         if ((x % 4 == 0 && x % 100 != 0) || x % 400 == 0) {
