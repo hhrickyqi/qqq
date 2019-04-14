@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Test1 {
+public class Test01 {
     public static void main(String[] args) {
         ChickenManage cm = new ChickenManage(6);
         cm.addChicken(new Chicken(1,"鸡1",3,5));
