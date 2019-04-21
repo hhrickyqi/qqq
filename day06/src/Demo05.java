@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 
@@ -13,5 +14,8 @@ public class Demo05 {
         System.out.println(b1.divide(b2));
         System.out.println(b1.remainder(b2));
         System.out.println(Arrays.toString(b1.divideAndRemainder(b2)));
+        String s3 = "1.14546546";
+        BigDecimal bm = new BigDecimal(s3);
+        System.out.println(bm);
     }
 }
