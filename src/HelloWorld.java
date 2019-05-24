@@ -15,7 +15,7 @@ public class HelloWorld {
         System.out.print("sda\n");//ln与\n作用一样
         System.out.println(a);//a.sout可以直接输出
         System.out.println("请输入：");
-        Scanner sc = new Scanner(System.in);//Scanner键盘输入
+         sc = new (System.in);//Scanner键盘输入
         int b = sc.nextInt() ;
         System.out.println(b);*/
        int a = 5;

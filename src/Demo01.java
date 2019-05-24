@@ -1,8 +1,8 @@
-import java.util.Scanner;
+
 
 public class Demo01 {
     public static void main(String[] args) {
-       /* Scanner sc = new Scanner(System.in);
+       /*  sc = new (System.in);
         System.out.println("请输入高：");
         int h = sc.nextInt();
         System.out.println("请输入半径：");

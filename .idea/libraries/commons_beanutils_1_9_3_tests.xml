@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-beanutils-1.9.3-tests">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/day08/src/lib/commons-beanutils-1.9.3-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
