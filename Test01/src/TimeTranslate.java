@@ -1,6 +1,10 @@
+import org.junit.Test;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
+import java.util.UUID;
 
 //关于时间格式转换的一个demo
 public class TimeTranslate {
@@ -16,4 +20,26 @@ public class TimeTranslate {
         }
         System.out.println(date);
     }
+
+    @Test
+    public void testTime(){
+        StringBuilder sb = new StringBuilder();
+        String date = new SimpleDateFormat("yyyyMMddHHmmssSSS").format(new Date());
+        Random r = new Random();
+        int number = r.nextInt(90000) + 10000;
+        sb.append("Z");
+        sb.append(date);
+        sb.append(number);
+        System.out.println(sb);
+        System.out.println(number);
+
+    }
+
+    @Test
+    public void helloWorld(){
+        String st = String.valueOf(0);
+    }
+
+
+
 }
